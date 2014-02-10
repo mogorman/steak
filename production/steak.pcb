@@ -1848,7 +1848,7 @@ Element["" "" "" "" 31.0982mm 69.1612mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "Battery" "Power" "unknown" 4682.50mil 2763.60mil -344.30mil -25.80mil 0 100 ""]
+Element["" "Power" "Battery1" "unknown" 4682.50mil 2763.60mil -344.30mil -25.80mil 0 100 ""]
 (
 	Pin[-7.50mil 13.50mil 60.00mil 20.00mil 64.00mil 35.00mil "1" "1" "edge2"]
 	Pin[92.50mil 13.50mil 60.00mil 20.00mil 64.00mil 35.00mil "1" "2" "edge2"]
@@ -1872,7 +1872,7 @@ Element["" "Button" "S1" "unknown" 120.9949mm 63.5749mm 54.92mil -234.89mil 0 11
 
 	)
 
-Element["" "R025" "R1" "330R" 2650.00mil 975.00mil -364.00mil -121.60mil 0 100 ""]
+Element["" "R025" "R1" "330" 2650.00mil 975.00mil -364.00mil -121.60mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 68.00mil 30.00mil 74.00mil 38.00mil "" "1" "edge2"]
 	Pin[-400.00mil 0.0000 68.00mil 30.00mil 74.00mil 38.00mil "" "2" "edge2"]
@@ -1998,7 +1998,7 @@ Element["" "R025" "R11" "10K" 3900.00mil 1975.00mil -408.60mil -100.00mil 0 100 
 
 	)
 
-Element["" "TO92" "PNP1" "unknown" 3250.00mil 1975.00mil -40.00mil 240.00mil 0 105 ""]
+Element["" "TO92" "PNP1" "BC557" 3250.00mil 1975.00mil -40.00mil 240.00mil 0 105 ""]
 (
 	Pin[0.0000 200.00mil 72.00mil 30.00mil 74.00mil 38.00mil "1" "1" "square"]
 	Pin[0.0000 100.00mil 72.00mil 34.00mil 74.00mil 38.00mil "2" "2" ""]
@@ -2038,7 +2038,7 @@ Element["" "TO92" "NPN3" "unknown" 3250.00mil 1575.00mil -30.00mil 240.00mil 0 1
 
 	)
 
-Element["" "R025" "R2" "330R" 2250.00mil 2075.00mil -100.00mil 0.0000 1 100 ""]
+Element["" "R025" "R2" "330" 2250.00mil 2075.00mil -100.00mil 0.0000 1 100 ""]
 (
 	Pin[0.0000 0.0000 68.00mil 30.00mil 74.00mil 38.00mil "" "1" ""]
 	Pin[0.0000 -400.00mil 68.00mil 30.00mil 74.00mil 38.00mil "" "2" ""]
@@ -2052,7 +2052,7 @@ Element["" "R025" "R2" "330R" 2250.00mil 2075.00mil -100.00mil 0.0000 1 100 ""]
 
 	)
 
-Element["" "R025" "R3" "330R" 2650.00mil 2075.00mil -100.00mil 0.0000 1 100 ""]
+Element["" "R025" "R3" "330" 2650.00mil 2075.00mil -100.00mil 0.0000 1 100 ""]
 (
 	Pin[0.0000 0.0000 68.00mil 30.00mil 74.00mil 38.00mil "" "1" ""]
 	Pin[0.0000 -400.00mil 68.00mil 30.00mil 74.00mil 38.00mil "" "2" ""]
@@ -2143,7 +2143,7 @@ Element["" "LED5" "LED4" "unknown" 2450.00mil 1425.00mil -78.50mil -215.50mil 0 
 
 	)
 
-Element["" "DIP16" "4017" "unknown" 4250.00mil 775.00mil -245.00mil -35.00mil 0 125 ""]
+Element["" "DIP16" "U1" "unknown" 4250.00mil 775.00mil -245.00mil -35.00mil 0 125 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 70.00mil 38.00mil "1" "1" "square"]
 	Pin[0.0000 100.00mil 60.00mil 30.00mil 70.00mil 38.00mil "2" "2" ""]
@@ -2170,7 +2170,7 @@ Element["" "DIP16" "4017" "unknown" 4250.00mil 775.00mil -245.00mil -35.00mil 0 
 
 	)
 
-Element["" "DIP8" "555" "unknown" 4250.00mil 1625.00mil -205.00mil -30.00mil 0 120 ""]
+Element["" "DIP8" "U2" "unknown" 4250.00mil 1625.00mil -205.00mil -30.00mil 0 120 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 70.00mil 38.00mil "1" "1" "square,thermal(0X)"]
 	Pin[0.0000 100.00mil 60.00mil 30.00mil 70.00mil 38.00mil "2" "2" ""]
@@ -2189,7 +2189,7 @@ Element["" "DIP8" "555" "unknown" 4250.00mil 1625.00mil -205.00mil -30.00mil 0 1
 
 	)
 
-Element["" "R025" "R13" "10K" 4750.00mil 1175.00mil 60.50mil -25.50mil 0 100 ""]
+Element["" "R025" "R13" "470K" 4750.00mil 1175.00mil 60.50mil -25.50mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 68.00mil 30.00mil 74.00mil 38.00mil "" "1" ""]
 	Pin[0.0000 400.00mil 68.00mil 30.00mil 74.00mil 38.00mil "" "2" ""]
@@ -2203,7 +2203,7 @@ Element["" "R025" "R13" "10K" 4750.00mil 1175.00mil 60.50mil -25.50mil 0 100 ""]
 
 	)
 
-Element["" "R025" "R14" "330K" 4750.00mil 1675.00mil 60.60mil -26.50mil 0 100 ""]
+Element["" "R025" "R14" "470K" 4750.00mil 1675.00mil 60.60mil -26.50mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 68.00mil 30.00mil 74.00mil 38.00mil "" "1" ""]
 	Pin[0.0000 400.00mil 68.00mil 30.00mil 74.00mil 38.00mil "" "2" ""]
@@ -3340,10 +3340,10 @@ NetList()
 (
 	Net("GND" "(unknown)")
 	(
-		Connect("555-1")
-		Connect("4017-8")
-		Connect("4017-13")
-		Connect("BATTERY-2")
+		Connect("U2-1")
+		Connect("U1-8")
+		Connect("U1-13")
+		Connect("Battery1-2")
 		Connect("C1-2")
 		Connect("C2-2")
 		Connect("LED2-2")
@@ -3390,8 +3390,8 @@ NetList()
 	)
 	Net("unnamed_net8" "(unknown)")
 	(
-		Connect("4017-16")
-		Connect("BATTERY-1")
+		Connect("U1-16")
+		Connect("Battery1-1")
 		Connect("PNP1-1")
 		Connect("R2-1")
 		Connect("R3-1")
@@ -3431,59 +3431,59 @@ NetList()
 	)
 	Net("unnamed_net15" "(unknown)")
 	(
-		Connect("555-2")
-		Connect("555-6")
+		Connect("U2-2")
+		Connect("U2-6")
 		Connect("C1-1")
 		Connect("R14-2")
 	)
 	Net("unnamed_net16" "(unknown)")
 	(
-		Connect("555-3")
-		Connect("4017-14")
+		Connect("U2-3")
+		Connect("U1-14")
 	)
 	Net("unnamed_net17" "(unknown)")
 	(
-		Connect("555-4")
-		Connect("555-8")
+		Connect("U2-4")
+		Connect("U2-8")
 		Connect("C2-1")
 		Connect("S1-3")
 	)
 	Net("unnamed_net18" "(unknown)")
 	(
-		Connect("555-7")
+		Connect("U2-7")
 		Connect("R13-2")
 		Connect("R14-1")
 	)
 	Net("unnamed_net19" "(unknown)")
 	(
-		Connect("4017-1")
+		Connect("U1-1")
 		Connect("R10-1")
 		Connect("R12-1")
 	)
 	Net("unnamed_net20" "(unknown)")
 	(
-		Connect("4017-3")
+		Connect("U1-3")
 		Connect("R7-1")
 		Connect("R8-1")
 	)
 	Net("unnamed_net21" "(unknown)")
 	(
-		Connect("4017-4")
+		Connect("U1-4")
 		Connect("R9-1")
 	)
 	Net("unnamed_net22" "(unknown)")
 	(
-		Connect("4017-5")
-		Connect("4017-15")
+		Connect("U1-5")
+		Connect("U1-15")
 	)
 	Net("unnamed_net23" "(unknown)")
 	(
-		Connect("4017-7")
+		Connect("U1-7")
 		Connect("R6-1")
 	)
 	Net("unnamed_net24" "(unknown)")
 	(
-		Connect("4017-10")
+		Connect("U1-10")
 		Connect("R5-1")
 		Connect("R11-1")
 	)

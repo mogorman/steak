@@ -24,7 +24,7 @@ device=RESISTOR
 T 65700 50200 5 10 1 1 0 0 1
 refdes=R2
 T 64900 50200 5 10 1 1 0 0 1
-value=330R
+value=330
 T 65400 50600 5 10 0 1 0 0 1
 footprint=R025
 }
@@ -35,7 +35,7 @@ device=RESISTOR
 T 58800 50100 5 10 1 1 0 0 1
 refdes=R3
 T 58000 50100 5 10 1 1 0 0 1
-value=330R
+value=330
 T 58500 50600 5 10 0 1 0 0 1
 footprint=R025
 }
@@ -52,14 +52,12 @@ footprint=R025
 }
 C 65600 54200 1 270 0 battery-1.sym
 {
-T 66500 53900 5 10 0 0 270 0 1
-device=BATTERY
 T 66100 53800 5 10 1 1 0 0 1
-refdes=B1
+refdes=Battery1
 T 66900 53900 5 10 0 0 270 0 1
 symversion=0.1
 T 65900 54000 5 10 0 1 0 0 1
-footprint=CR2032-BAT-HLD
+footprint=Power
 }
 C 58400 48800 1 270 0 led-1.sym
 {
@@ -283,7 +281,7 @@ C 61500 53200 1 0 1 4017_counter.sym
 T 61200 55600 5 10 1 1 0 6 1
 label=4017
 T 59600 55600 5 10 1 1 0 6 1
-refdes=I1
+refdes=U1
 T 60200 54600 5 10 0 1 0 0 1
 footprint=DIP16
 }
@@ -436,7 +434,7 @@ C 56500 52800 1 0 1 superbutton.sym
 T 55700 54000 5 10 1 1 0 6 1
 refdes=S1
 T 56400 53600 5 10 0 1 0 6 1
-footprint=SuperButton
+footprint=Button
 }
 C 55000 54100 1 270 1 capacitor-2.sym
 {
@@ -503,7 +501,7 @@ refdes=R13
 T 52700 53900 5 10 0 0 180 0 1
 footprint=R025
 T 52200 53300 5 10 1 1 0 0 1
-falue=470K
+value=470K
 }
 N 53400 52900 53200 52900 4
 N 53200 52900 53200 54000 4
@@ -523,7 +521,7 @@ C 53400 51600 1 0 0 555.sym
 T 53600 51800 5 10 1 1 0 0 1
 label=555 timer
 T 55500 53400 5 10 1 1 0 0 1
-refdes=I2
+refdes=U2
 T 60400 54800 5 10 0 1 0 0 1
 footprint=DIP8
 }
@@ -554,7 +552,7 @@ device=RESISTOR
 T 67300 47900 5 10 1 1 180 0 1
 refdes=R1
 T 68100 47900 5 10 1 1 180 0 1
-value=330R
+value=330
 T 67600 47300 5 10 0 1 180 0 1
 footprint=R025
 }
